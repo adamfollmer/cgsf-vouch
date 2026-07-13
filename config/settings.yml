@@ -1,0 +1,10 @@
+plugins:
+  vouch_enabled:
+    default: true
+    client: true
+  vouch_offer_expiry_days:
+    default: 30
+    min: 1
+  vouch_reoffer_cooldown_days:
+    default: 90
+    min: 0

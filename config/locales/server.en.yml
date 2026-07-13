@@ -1,0 +1,8 @@
+en:
+  site_settings:
+    vouch_enabled: "Enable neighbor vouching: mutual trust between members, shown as paths between people, never as scores."
+    vouch_offer_expiry_days: "Days before an unanswered vouch offer quietly expires"
+    vouch_reoffer_cooldown_days: "Days after an offer expires before the same person can offer to the same neighbor again"
+  cgsf_vouch:
+    errors:
+      cannot_vouch_now: "You can't vouch for this neighbor right now."
