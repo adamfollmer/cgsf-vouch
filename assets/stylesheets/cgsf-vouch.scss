@@ -29,6 +29,12 @@
     font-size: var(--font-down-2);
     color: var(--primary-medium);
   }
+
+  @media (max-width: 600px) {
+    .btn {
+      padding: 0.65em 0.75em;
+    }
+  }
 }
 
 .cgsf-your-web {
@@ -72,6 +78,26 @@
     flex-direction: column;
     gap: 1.25em;
     min-width: 140px;
+  }
+
+  @media (max-width: 600px) {
+    &__body {
+      flex-direction: column;
+      align-items: stretch;
+    }
+
+    &__stats {
+      flex-direction: row;
+      justify-content: space-around;
+      text-align: center;
+      width: 100%;
+      min-width: 0;
+      gap: 0.5em;
+    }
+
+    &__withdraw {
+      padding: 0.65em 0.75em;
+    }
   }
 
   &__stat-number {
